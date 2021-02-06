@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    
 }
 
 .container {
@@ -68,4 +69,16 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 
+}
+
+/* Profile Page */
+.profile {
+    border-radius: 50%;
+    height: 150px;
+
+}
+
+.format-profile {
+    display: flex;
+    margin: 75px 100px 75px 100px;
 }
