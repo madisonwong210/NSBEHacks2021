@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .container {
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: #FDE9EA;
+    background: #f9e0db;
 }
 
 header::after {
@@ -21,6 +21,9 @@ header::after {
 
 .logo {
     float: left;
+    height: 100px;
+    width: 150px;
+    padding: 10px 0;
 }
 
 nav {
@@ -35,6 +38,34 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 35px;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
 
 }
