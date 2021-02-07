@@ -90,7 +90,7 @@ nav a:hover::before {
     background-color: #fff;
     border-radius: 25px;
     height: 500px;
-    margin: 5% 10% 10% 10%;
+    margin: 6% 10% 10% 10%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.075);
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
@@ -99,14 +99,84 @@ nav a:hover::before {
 .text {
     color: #588061;
     font-family: lato;
-    position: fixed;
+    position: absolute;
     margin-left: 295px;
     margin-top: 50px;
 }
 .piggy {
+    position: relative;
     height: 300px;
     margin-top: 120px;
     margin-left: 200px;
 }
 
+.format-text {
+    color: #869f77;
+    font-family: lato;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	font-family: lato;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.gold
+{
+	background-color: rgb(221, 192, 28);
+	border-bottom: 5px solid rgb(216, 169, 13);
+    text-shadow: 0px -2px rgb(216, 169, 13);
+    margin-bottom: 20px;
+    padding-left: 30%;
+}
+
+.silver
+{
+	background-color: rgb(199, 199, 191);
+	border-bottom: 5px solid rgb(151, 151, 145);
+    text-shadow: 0px -2px rgb(151, 151, 145);
+    margin-bottom: 20px;
+    padding-left: 29%;
+}
+
+.bronze
+{
+	background-color: rgb(189, 128, 36);
+	border-bottom: 5px solid rgb(145, 106, 48);
+    text-shadow: 0px -2px rgb(145, 106, 48);
+    margin-bottom: 20px;
+}
+
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 160px;
+    margin-left: 220px;
+
+}
   
