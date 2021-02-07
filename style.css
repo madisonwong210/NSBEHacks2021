@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     background-color: #f0f0f0;
 }
@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
 }
 
+/* nav bar*/
 header {
     background: #f9e0db;
 }
@@ -71,6 +72,39 @@ nav a:hover::before {
 
 }
 
+/* Main Page */
+.front-page {
+    background-color: white;
+}
+
+.headline {
+    color: #588061;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 100px;
+    padding-right: 55px;
+}
+
+.format-all {
+    display: flex;
+    flex-direction: row;
+}
+
+.cover-photo {
+    width: 40%;
+    margin-top: 120px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+}
+
 /* Profile Page */
 .profile {
     border-radius: 50%;
@@ -85,7 +119,7 @@ nav a:hover::before {
 
 
 /* Rewards Page */
-.rewards-background {
+.background {
     display: flex;
     background-color: #fff;
     border-radius: 25px;
@@ -98,7 +132,7 @@ nav a:hover::before {
 
 .text {
     color: #588061;
-    font-family: lato;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     margin-left: 295px;
     margin-top: 50px;
@@ -112,7 +146,7 @@ nav a:hover::before {
 
 .format-text {
     color: #869f77;
-    font-family: lato;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     margin-left: 200px;
     margin-top: 50px;
@@ -131,7 +165,7 @@ nav a:hover::before {
     margin: 0px 10px 10px 0px;
     float: left;
 	border-radius: 10px;
-	font-family: lato;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	color: #FFF;
 	text-decoration: none;	
