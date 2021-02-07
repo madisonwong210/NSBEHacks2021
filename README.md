@@ -4,4 +4,4 @@
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://g.recordit.co/PjgAjMdR2g' />
+![Demo](https://recordit.co/PjgAjMdR2g)
