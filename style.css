@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    
+    background-color: #f0f0f0;
 }
 
 .container {
@@ -81,4 +81,22 @@ nav a:hover::before {
 .format-profile {
     display: flex;
     margin: 75px 100px 75px 100px;
+}
+
+
+/* Rewards Page */
+.rewards-background {
+    display: flex;
+    background-color: #fff;
+    border-radius: 25px;
+    height: 500px;
+    margin: 5% 10% 10% 10%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+}
+
+.piggy {
+    height: 200px;
+    margin-top: 135px;
 }
