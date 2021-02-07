@@ -105,6 +105,58 @@ nav a:hover::before {
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
 }
 
+/* Track Page */
+.monthly-budget {
+    color: #588061;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 425px;
+    margin-top: 45px;
+}
+
+  .slider {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:250px;
+    height:30px;
+    padding:20px;
+    background:#f5f5f5;
+    border:1px solid #588061;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.15);
+  }
+  .slider p {
+    font-size:18px;
+    font-weight:600;
+    font-family:sans-serif;
+    padding-left:20px;
+    color:#588061;
+  }
+  .slider input[type="range"] {
+    -webkit-appearance:none !important;
+    width:200px;
+    height:1px;
+    background:#588061;
+    border:none;
+    outline:none;
+  }
+  .slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance:none !important;
+    width:20px;
+    height:20px;
+    background:#f5f5f5;
+    border:2px solid #588061;
+    border-radius:50%;
+    cursor:pointer;
+  }
+  .slider input[type="range"]::-webkit-slider-thumb:hover {
+    background:#588061;
+  }
+
+
 /* Profile Page */
 .profile {
     border-radius: 50%;
@@ -128,6 +180,7 @@ nav a:hover::before {
     box-shadow: 0 2px 5px rgba(0,0,0,0.075);
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+    
 }
 
 .text {
