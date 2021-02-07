@@ -24,7 +24,7 @@ header::after {
 .logo {
     float: left;
     height: 55px;
-    width: 115px;
+    width: 110px;
     padding: 10px 0;
 }
 
@@ -103,6 +103,10 @@ nav a:hover::before {
     box-shadow: 0 2px 5px rgba(0,0,0,0.075);
     -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+}
+
+p {
+    line-height: 26px;
 }
 
 /* Track Page */
