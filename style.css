@@ -96,7 +96,17 @@ nav a:hover::before {
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
 }
 
-.piggy {
-    height: 200px;
-    margin-top: 135px;
+.text {
+    color: #588061;
+    font-family: lato;
+    position: fixed;
+    margin-left: 295px;
+    margin-top: 50px;
 }
+.piggy {
+    height: 300px;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+  
