@@ -4,4 +4,4 @@
 
 Here's a walkthrough of implemented user stories:
 
-![Demo](https://recordit.co/PjgAjMdR2g)
+![Demo](http://g.recordit.co/PjgAjMdR2g.gif)
